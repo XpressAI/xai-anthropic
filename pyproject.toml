@@ -10,5 +10,5 @@ keywords = ["xircuits", "anthropic", "text generation"]
 
 # Xircuits-specific configurations
 [tool.xircuits]
-default_example_path = "anthropic_example.xircuits"
+default_example_path = "examples/anthropic_example.xircuits"
 requirements_path = "requirements.txt"
