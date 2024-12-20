@@ -1,1 +1,2 @@
 anthropic==0.36.2
+httpx<028
