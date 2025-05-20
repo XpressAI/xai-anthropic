@@ -16,7 +16,7 @@ class AnthropicAuthorize(Component):
 
     def execute(self, ctx) -> None:
         if self.from_env.value:
-            ctx['anthropic'] = Anthropic(api_key=os.getenv('ANTHROPIC_API_KEY'))
+            ctx['anthropic'] = Anthropic(api_key = os.getenv('ANTHROPIC_API_KEY').strip())
         else:
             ctx['anthropic'] = Anthropic(api_key=self.api_key.value)
 
