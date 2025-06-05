@@ -9,7 +9,7 @@ repository = "https://github.com/XpressAI/xai-anthropic"
 keywords = ["xircuits", "anthropic", "text generation"]
 
 dependencies = [
-    "anthropic==0.51.0"
+    "anthropic==0.52.2"
 ]
 
 # Xircuits-specific configurations
